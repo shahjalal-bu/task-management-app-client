@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  background-color: #dbeafe;
+}
+.todo-lists::-webkit-scrollbar {
+  width: 2px;
+}
+
+.todo-lists::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.todo-lists::-webkit-scrollbar-thumb {
+  width: 1.5px;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 30px;
+}
